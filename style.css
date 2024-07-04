@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.b{
+display: flex;
+margin:20px;
+align-items: center;
+        }
+.a{
+    width: 100vw;
+    height: 7vh;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center
+}
+.c{
+    background:url(https://mapi7.com/assets/images/blog/cherno-beloe-foto/cherno-beloe-foto-2.jpg);
+    width: 100vw;
+    height: 60vh;
+}
+.c::after{
+    content: '';
+    position: absolute;
+    top: 3.4vw;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(to right, rgba(255, 238, 0, 0.726) 0%, rgba(255, 4, 4, 0.85) 100%);
+    width: 100vw;
+    height: 53vh;
+}
+input{
+border-radius: 20px;
+background: linear-gradient(to right, rgba(255, 238, 0, 0.726) 0%, rgba(255, 4, 4, 0.85) 100%);
+width: 100px;
+height: 30px;
+}
+.b:hover{
+    color: orangered;
+}
+.d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
